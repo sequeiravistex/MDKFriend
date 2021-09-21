@@ -1,0 +1,7 @@
+{
+	"_Type": "Register.Type.ExtensionControl",
+	"Module": "map_extModule",
+	"Control": "map_extControl",
+	"Class": "map_extClass",
+	"Display": "/MDKFriend/Images/map.png"
+}

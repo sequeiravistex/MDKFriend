@@ -1,0 +1,8 @@
+{
+  "AppName": "MDKFriend",
+  "AppVersion": "1.0.0",
+  "BundleID": "sequeira.demos.mdkfun",
+	"Externals": ["nativescript-printer", "nativescript-qr-generator", "nativescript-geolocation"],
+	"NSPlugins": ["nativescript-printer@1.5.0", "nativescript-qr-generator@1.0.0", "nativescript-geolocation"],
+  "UrlScheme": "mdkclient"
+}

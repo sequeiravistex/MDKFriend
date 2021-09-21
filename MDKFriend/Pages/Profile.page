@@ -1,0 +1,53 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"_Type": "Section.Type.ImageCollection",
+					"_Name": "SectionImageCollection0",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"ImageCells": [
+						{
+							"ImageCell": {
+								"Styles": {
+									"Image": "/MDKFriend/Rules/GetQRCodeImage.js"
+								},
+								"_Name": "SectionImageCell0",
+								"Title": "Your Profile",
+								"Image": "/MDKFriend/Rules/GetQRCodeImage.js",
+								"ImageIsCircular": false,
+								"Visible": true
+							}
+						}
+					],
+					"Layout": {
+						"LayoutType": "HorizontalFit"
+					}
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Profile",
+	"Caption": "Share Profile",
+	"ToolBar": {
+		"Items": [
+			{
+				"_Type": "Control.Type.ToolbarItem",
+				"_Name": "ToolbarItem0",
+				"Caption": "Print",
+				"Enabled": true,
+				"Visible": true,
+				"Clickable": true,
+				"Icon": "sap-icon://print",
+				"ItemType": "Normal",
+				"OnPress": "/MDKFriend/Rules/PrintQRCode.js"
+			}
+		]
+	}
+}

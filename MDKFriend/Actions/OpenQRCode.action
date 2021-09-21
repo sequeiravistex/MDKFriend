@@ -1,0 +1,9 @@
+{
+	"_Type": "Action.Type.OpenBarcodeScanner",
+	"ActionResult": {
+		"_Name": "BarcodeScanner"
+	},
+	"OnSuccess": "/MDKFriend/Rules/BarcodeScanResult.js",
+	"ShowActivityIndicator": true,
+	"ActivityIndicatorText": "Reading..."
+}

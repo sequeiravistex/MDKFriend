@@ -1,0 +1,81 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"ProfileHeader": {
+						"DetailImage": "/MDKFriend/Images/me.png",
+						"DetailImageIsCircular": true,
+						"Headline": "José Sequeira"
+					},
+					"_Type": "Section.Type.ProfileHeader",
+					"_Name": "SectionProfileHeader0",
+					"Visible": true
+				},
+				{
+					"KeyAndValues": [
+						{
+							"Value": "/MDKFriend/Rules/getLocation.js",
+							"_Name": "KeyValue0",
+							"KeyName": "Your Current Location",
+							"Visible": true
+						}
+					],
+					"MaxItemCount": 1,
+					"_Type": "Section.Type.KeyValue",
+					"_Name": "SectionKeyValue0",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Layout": {
+						"NumberOfColumns": 1
+					}
+				},
+				{
+					"_Type": "Section.Type.ButtonTable",
+					"_Name": "SectionButtonTable0",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Buttons": [
+						{
+							"_Name": "SectionButton0",
+							"Title": "Share Profile",
+							"TextAlignment": "center",
+							"Visible": true,
+							"OnPress": "/MDKFriend/Actions/gotoProfile.action"
+						},
+						{
+							"_Name": "SectionButton1",
+							"Title": "Got a friend?",
+							"TextAlignment": "center",
+							"Visible": true,
+							"OnPress": "/MDKFriend/Actions/OpenQRCode.action"
+						}
+					]
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Main",
+	"Caption": "MDK Friend",
+	"ToolBar": {
+		"Items": [
+			{
+				"_Type": "Control.Type.ToolbarItem",
+				"_Name": "LogoutToolbarItem",
+				"Caption": "Logout",
+				"Enabled": true,
+				"Visible": true,
+				"Clickable": true,
+				"ItemType": "Normal",
+				"OnPress": "/MDKFriend/Actions/Logout.action"
+			}
+		]
+	}
+}

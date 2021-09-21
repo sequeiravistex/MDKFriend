@@ -1,0 +1,28 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"_Type": "Section.Type.Extension",
+					"_Name": "SectionExtension0",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Height": 740,
+					"Module": "map_extModule",
+					"Control": "map_extControl",
+					"Class": "map_extClass",
+					"ExtensionProperties": {
+						"Friend": "/MDKFriend/Rules/SetFriend.js"
+					}
+				}
+			]
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Friend",
+	"Caption": "Your Friend"
+}

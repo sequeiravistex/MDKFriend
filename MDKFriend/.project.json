@@ -1,0 +1,22 @@
+{
+	"Credential": "cf",
+	"Onboarding": {
+		"Schema": "sapmobilesvcs",
+		"TimeZone": "UTC",
+		"URL": "sapmobilesvcs://?AppId=sequeira.friend&ClientId=af39f13d-79b7-4c9d-969d-9f2000fec969&ServerUrl=https://a271f7d4trial-dev-sequeira-friend.cfapps.us10.hana.ondemand.com&SapCloudPlatformEndpoint=https://a271f7d4trial-dev-sequeira-friend.cfapps.us10.hana.ondemand.com&AuthorizationEndpointUrl=https://a271f7d4trial-dev-sequeira-friend.cfapps.us10.hana.ondemand.com/oauth2/api/v1/authorize&RedirectUrl=https://a271f7d4trial-dev-sequeira-friend.cfapps.us10.hana.ondemand.com&TokenUrl=https://a271f7d4trial-dev-sequeira-friend.cfapps.us10.hana.ondemand.com/oauth2/api/v1/token"
+	},
+	"CF": {
+		"Target": "https://api.cf.us10.hana.ondemand.com",
+		"Organization": "9aaf2796-d2a2-4b72-8272-a5ecde47c727",
+		"Space": "be9ab7c1-60f6-44b8-9ac9-2d9c78fe155d"
+	},
+	"MobileService": {
+		"Type": "standard",
+		"AdminAPI": "https://mobile-service-cockpit-api.cfapps.us10.hana.ondemand.com/cockpit/v1/org/9aaf2796-d2a2-4b72-8272-a5ecde47c727/space/be9ab7c1-60f6-44b8-9ac9-2d9c78fe155d",
+		"AppId": "sequeira.friend",
+		"Destination": []
+	},
+	"Build": {
+		"SourceMap": true
+	}
+}
